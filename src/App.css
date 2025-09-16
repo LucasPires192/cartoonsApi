@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #918e8e;
+    min-height: 100dvh;
+}
+
+h1{
+    font-size: 35px;
+    color: #000;
+}
