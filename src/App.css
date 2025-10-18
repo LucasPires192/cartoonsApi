@@ -1,18 +1,33 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.container {
+  font-family: Arial, sans-serif;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #918e8e;
-    min-height: 100dvh;
+.capa-container{
+    height: 500px;
+    width: auto;
+    overflow: hidden;
+    margin: auto;
 }
 
-h1{
-    font-size: 35px;
-    color: #000;
+.titulo{
+    align-self: center;
+}
+
+.card-container{
+    padding: 0 30px;
+}
+
+.cartoon-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.cartoon-card img {
+  border-radius: 8px;
 }
